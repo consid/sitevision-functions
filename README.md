@@ -23,7 +23,7 @@ Get part of array based on a maximum amount of arrays that should be returned.
 function getNumberOfArrays(items, maxItems)
 ```
 
-### Add new functions
+## Add new functions
 
 1. create a new folder in ```/functions/example``` and create a new ```example.js``` file with the same name as the folder.
 
@@ -46,7 +46,7 @@ export {
 ```
 
 Now your done and ready to push your changes and add a new **pull-request** to the repository! 🎉🎉🎉
-### Test functionality
+## Test functionality
 
 The application have a javascript file name **app.js** which imports **sitevisionFunctions** as default with all functions available in the npm package. So that it is possible to test the new functionality before a new release of the package.
 
@@ -59,11 +59,7 @@ The application have a javascript file name **app.js** which imports **sitevisio
 3. Open your favorite browser and type in the address: **http://127.0.0.1:3000/**
 
 Now you should see a text with **Test environment ready** and your all set to start coding new functionality! 💻
-
-
-
-
-#### Example how functionality could be tested in  ```app.js```:
+### Example how functionality could be tested in  ```app.js```:
 ```js
 import * as sitevisionFunctions from './index';
 import * as http from 'http';
