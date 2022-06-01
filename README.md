@@ -5,6 +5,7 @@ This is a JavaScript package for handling standard JavaScript functions commonly
 
 **1. install the package**
 > npm install @consid/sitevision-functions
+
 **2. Import the package in your ```.js``` file**
 
 Import all functions in the ```.js``` file
