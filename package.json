@@ -1,6 +1,6 @@
 {
   "name": "@consid/sitevision-functions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "nodemon --experimental-modules --es-module-specifier-resolution=node app.js"
