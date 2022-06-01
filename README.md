@@ -22,8 +22,8 @@ import {getNumberOfArrays} from '@consid/sitevision-functions';
 sitevisionFunctions.getNumberOfArrays(array);
 ```
 
-Available functions in the npm package **@consid/sitevision-functions**:
-## Arrays
+## Available functions in the npm package **@consid/sitevision-functions**:
+### Arrays
 
 Sort arrays on date in descending order. 
 ```js
