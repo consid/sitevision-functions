@@ -1,6 +1,26 @@
 # Consid Sitevision functions
 This is a JavaScript package for handling standard JavaScript functions commonly used in Sitevision. 
 
+## Getting started
+
+**1. install the package**
+> npm install @consid/sitevision-functions
+**2. Import the package in your ```.js``` file**
+
+Import all functions in the ```.js``` file
+```js
+import * as sitevisionFunctions from '@consid/sitevision-functions';
+```
+**OR** 
+Import some of the functions in the ```.js``` file
+```js
+import {getNumberOfArrays} from '@consid/sitevision-functions';
+```
+**3. Use the functions in your ```.js``` file.**
+```js
+sitevisionFunctions.getNumberOfArrays(array);
+```
+
 Available functions in the npm package **@consid/sitevision-functions**:
 ## Arrays
 
@@ -25,15 +45,15 @@ function getNumberOfArrays(items, maxItems)
 
 ## Add new functions
 
-1. create a new folder in ```/functions/example``` and create a new ```example.js``` file with the same name as the folder.
+**1. create a new folder in ```/functions/example``` and create a new ```example.js``` file with the same name as the folder.**
 
-2. Export your function in the ```example.js``` file:
+**2. Export your function in the ```example.js``` file:**
 
 ```js
 export const example = () => {
 }
 ```
-3. Import and export your new function in ```index.js```
+**3. Import and export your new function in ```index.js```**
 
 ```js
 import {
@@ -50,13 +70,13 @@ Now your done and ready to push your changes and add a new **pull-request** to t
 
 The application have a javascript file name **app.js** which imports **sitevisionFunctions** as default with all functions available in the npm package. So that it is possible to test the new functionality before a new release of the package.
 
-1. Install the application:
+**1. Install the application:**
 > npm install
 
-2. Run the application and test the functionality in **app.js**:
+**2. Run the application and test the functionality in **app.js**:**
 > npm run dev
 
-3. Open your favorite browser and type in the address: **http://127.0.0.1:3000/**
+**3. Open your favorite browser and type in the address: http://127.0.0.1:3000/**
 
 Now you should see a text with **Test environment ready** and your all set to start coding new functionality! 💻
 ### Example how functionality could be tested in  ```app.js```:
